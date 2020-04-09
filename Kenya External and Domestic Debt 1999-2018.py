@@ -11,7 +11,7 @@ import matplotlib.dates as mdates
 import matplotlib.ticker as mtick
 from pandas.plotting import register_matplotlib_converters
 register_matplotlib_converters()
-df = pd.read_excel(r'C:\Users\KIRIMI\.spyder-py3\My Projects\Kenya Public Debt Analysis (1999-2018)\Data\Public Debt (Ksh Million).xlsx', Sheet=1)
+df = pd.read_excel(r'C:\Users\KIRIMI\Documents\GitHub\Kenya-Public-Debt-Analysis-1999-2018\Data\Public Debt (Ksh Million).xlsx', Sheet=1)
 df.head(4)
 df.tail(4)
 df.shape
